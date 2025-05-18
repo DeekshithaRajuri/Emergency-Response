@@ -1,6 +1,6 @@
 # 🌐 Emergency Response Network
 
-**Live Project Link:** [https://your-live-project-link.com](https://your-live-project-link.com)
+**Live Project Link:** https://deekshitharajuri.github.io/Emergency-Response/
 
 ## 🆘 About the Project
 
