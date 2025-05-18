@@ -1,0 +1,167 @@
+/* Base styles for all safety components */
+.safety-component {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .safety-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .safety-header h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .hero-image {
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 20px;
+  }
+  
+  .image-overlay h2 {
+    margin-top: 0;
+  }
+  
+  .safety-tips {
+    margin-bottom: 40px;
+  }
+  
+  .safety-tips h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .tip-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .tip-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tip-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .tip-card h3 {
+    color: #e74c3c;
+    margin-top: 0;
+  }
+  
+  .additional-resources {
+    margin-bottom: 40px;
+  }
+  
+  .additional-resources h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  
+  .resources-grid a {
+    display: block;
+    padding: 15px;
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resources-grid a:hover {
+    background-color: #c0392b;
+  }
+  
+  .safety-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  /* Specific component variations */
+  .flood-safety .hero-image .image-overlay {
+    background: rgba(0, 82, 155, 0.7);
+  }
+  
+  .cyclone-safety .hero-image .image-overlay {
+    background: rgba(155, 89, 0, 0.7);
+  }
+  
+  .wildfire-safety .hero-image .image-overlay {
+    background: rgba(155, 42, 0, 0.7);
+  }
+  
+  .drought-safety .hero-image .image-overlay {
+    background: rgba(155, 124, 0, 0.7);
+  }
+  
+  .tsunami-safety .hero-image .image-overlay {
+    background: rgba(0, 102, 155, 0.7);
+  }
+  
+  .pandemic-safety .hero-image .image-overlay {
+    background: rgba(102, 0, 155, 0.7);
+  }
+  
+  .landslide-safety .hero-image .image-overlay {
+    background: rgba(77, 77, 77, 0.7);
+  }
+  
+  @media (max-width: 768px) {
+    .tips-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .resources-grid {
+      grid-template-columns: 1fr;
+    }
+  }

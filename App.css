@@ -1,0 +1,206 @@
+/* Add these lines to App.css or index.css */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  /* Make Navbar Bigger & Styled */
+.custom-navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d10000 !important; /* Red theme */
+}
+
+.custom-navbar .nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: color 0.2s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #d10000 !important; /* Red on hover */
+}
+
+/* Logo size controlled here for uniformity */
+.custom-navbar img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+/* Navbar Styles */
+.custom-navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.custom-navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #e63946 !important;
+}
+
+.custom-navbar .nav-link {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #1d3557 !important;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #e63946 !important;
+  text-decoration: underline;
+}
+.nav-underline {
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+  color: #1d3557 !important;
+}
+
+.nav-underline::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #e63946, #fca311);
+  transition: width 0.3s ease-in-out;
+  border-radius: 4px;
+}
+
+.nav-underline:hover::after {
+  width: 100%;
+}
+
+.active-underline {
+  font-weight: 600;
+  color: #e63946 !important;
+}
+
+.active-underline::after {
+  width: 100%;
+}
+.nav-underline {
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+  color: #1d3557 !important;
+}
+
+.nav-underline::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #e63946, #fca311);
+  transition: width 0.3s ease-in-out;
+  border-radius: 4px;
+}
+
+.nav-underline:hover::after {
+  width: 100%;
+}
+
+.active-underline {
+  font-weight: 600;
+  color: #e63946 !important;
+}
+
+.active-underline::after {
+  width: 100%;
+}
+.nav-underline {
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+  color: #1d3557 !important;
+}
+
+.nav-underline::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #e63946, #fca311);
+  transition: width 0.3s ease-in-out;
+  border-radius: 4px;
+}
+
+.nav-underline:hover::after {
+  width: 100%;
+}
+
+.active-underline {
+  font-weight: 600;
+  color: #e63946 !important;
+}
+
+.active-underline::after {
+  width: 100%;
+}
+/* Underline animation for nav links */
+.nav-underline {
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+  color: #1d3557 !important;
+  font-weight: 500;
+}
+
+.nav-underline::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #e63946, #fca311);
+  transition: width 0.3s ease-in-out;
+  border-radius: 4px;
+}
+
+.nav-underline:hover::after {
+  width: 100%;
+}
+
+.active-underline {
+  font-weight: 600;
+  color: #e63946 !important;
+}
+
+.active-underline::after {
+  width: 100%;
+}

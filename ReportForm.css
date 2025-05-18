@@ -1,0 +1,16 @@
+/* Custom styles can be added here if needed */
+.ant-card {
+  border-radius: 8px;
+}
+
+.ant-card-head-title {
+  padding: 16px 0;
+}
+
+.ant-form-item-label label {
+  font-weight: 500;
+}
+
+.ant-input-affix-wrapper, .ant-input, .ant-input-textarea {
+  border-radius: 4px;
+}

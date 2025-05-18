@@ -1,0 +1,248 @@
+.earthquake-safety {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .safety-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .safety-header h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .hero-image {
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 20px;
+  }
+  
+  .image-overlay h2 {
+    margin-top: 0;
+  }
+  
+  .safety-tips {
+    margin-bottom: 40px;
+  }
+  
+  .safety-tips h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .tip-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .tip-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tip-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .tip-card h3 {
+    color: #e74c3c;
+    margin-top: 0;
+  }
+  
+  .emergency-kit {
+    margin-bottom: 40px;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .emergency-kit h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  .kit-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .kit-image {
+    flex: 1;
+    min-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .kit-items {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .kit-items h3 {
+    color: #e74c3c;
+  }
+  
+  .interactive-section {
+    margin-bottom: 40px;
+  }
+  
+  .interactive-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .resource-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .resource-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .resource-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  
+  .additional-resources {
+    margin-bottom: 40px;
+  }
+  
+  .additional-resources h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  
+  .resources-grid a {
+    display: block;
+    padding: 15px;
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resources-grid a:hover {
+    background-color: #c0392b;
+  }
+  
+  .safety-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .social-share {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .social-share button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-share button:hover {
+    background-color: #2980b9;
+  }
+  
+  .disclaimer {
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .kit-content {
+      flex-direction: column;
+    }
+    
+    .tips-grid, .resource-cards, .resources-grid {
+      grid-template-columns: 1fr;
+    }
+  }

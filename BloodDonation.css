@@ -1,0 +1,86 @@
+.blood-donation-wrapper {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .blood-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .blood-img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .quote {
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .quote h2 {
+    color: #e63946;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .quote p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .donate-blood-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .donate-blood-btn:hover {
+    background-color: #d62828;
+  }
+  
+  .blood-form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .blood-form input,
+  .blood-form select {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .blood-form button {
+    padding: 14px;
+    background-color: #1d3557;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .blood-form button:hover {
+    background-color: #16324f;
+  }
+  
